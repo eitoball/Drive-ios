@@ -215,6 +215,7 @@ public enum Device {
         case Pad
         /// The user interface should be designed for TV
         case TV
+        case CarPlay
         /// Used when an object has a trait collection, but it is not in an environment yet. For example, a view that is created, but not put into a view hierarchy.
         case Unspecified
         
@@ -223,6 +224,7 @@ public enum Device {
             case .Pad:          self = .Pad
             case .Phone:        self = .Phone
             case .TV:           self = .TV
+            case .CarPlay:      self = .CarPlay
             case .Unspecified:  self = .Unspecified
             }
         }
