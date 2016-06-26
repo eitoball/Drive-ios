@@ -61,9 +61,9 @@
 		49FC9A421BCFB5D4006FA40E /* DrivecastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC9A411BCFB5D4006FA40E /* DrivecastUITests.swift */; };
 		49FC9A581BCFB79D006FA40E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49FC9A571BCFB79D006FA40E /* MapKit.framework */; };
 		49FC9A901BCFB852006FA40E /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC9A6F1BCFB852006FA40E /* JSON.swift */; };
-		49FC9A921BCFB852006FA40E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC9A711BCFB852006FA40E /* UIColor.swift */; };
-		49FC9A931BCFB852006FA40E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC9A721BCFB852006FA40E /* UIImage.swift */; };
-		49FC9A941BCFB852006FA40E /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC9A731BCFB852006FA40E /* UIStoryboard.swift */; };
+		49FC9A921BCFB852006FA40E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC9A711BCFB852006FA40E /* Color.swift */; };
+		49FC9A931BCFB852006FA40E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC9A721BCFB852006FA40E /* Image.swift */; };
+		49FC9A941BCFB852006FA40E /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC9A731BCFB852006FA40E /* Storyboard.swift */; };
 		49FC9A951BCFB852006FA40E /* DCTLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC9A751BCFB852006FA40E /* DCTLog.swift */; };
 		49FC9A961BCFB852006FA40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FC9A771BCFB852006FA40E /* LaunchScreen.storyboard */; };
 		49FC9A971BCFB852006FA40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FC9A791BCFB852006FA40E /* Main.storyboard */; };
@@ -161,9 +161,9 @@
 		49FC9A431BCFB5D4006FA40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49FC9A571BCFB79D006FA40E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		49FC9A6F1BCFB852006FA40E /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		49FC9A711BCFB852006FA40E /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		49FC9A721BCFB852006FA40E /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
-		49FC9A731BCFB852006FA40E /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		49FC9A711BCFB852006FA40E /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		49FC9A721BCFB852006FA40E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		49FC9A731BCFB852006FA40E /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		49FC9A751BCFB852006FA40E /* DCTLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCTLog.swift; sourceTree = "<group>"; };
 		49FC9A781BCFB852006FA40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49FC9A7A1BCFB852006FA40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -296,16 +296,16 @@
 			isa = PBXGroup;
 			children = (
 				49DAC9CF1BD5B48400CD300F /* CLLocationDistance.swift */,
+				49FC9A711BCFB852006FA40E /* Color.swift */,
+				49FC9A721BCFB852006FA40E /* Image.swift */,
 				49FC9A6F1BCFB852006FA40E /* JSON.swift */,
 				49DAC9D11BD5B58E00CD300F /* NSTimeInterval.swift */,
 				49DAC9D31BD5B75E00CD300F /* NSTimer.swift */,
+				49FC9A731BCFB852006FA40E /* Storyboard.swift */,
 				494C76911BD05F6000B86491 /* String.swift */,
 				49DAC9CD1BD5A90600CD300F /* UIButton.swift */,
-				49FC9A711BCFB852006FA40E /* UIColor.swift */,
 				49DAC9CB1BD4E66D00CD300F /* UIControl.swift */,
-				49FC9A721BCFB852006FA40E /* UIImage.swift */,
 				4920F8BC1BD470A3001D3C16 /* UILabel.swift */,
-				49FC9A731BCFB852006FA40E /* UIStoryboard.swift */,
 				498274221BD16F66003445B0 /* UITextField.swift */,
 				494C769E1BD1329F00B86491 /* UIView.swift */,
 				4920F8B41BD42C62001D3C16 /* UIViewController.swift */,
@@ -645,7 +645,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "swiftgen storyboards \"${SRCROOT}/Drivecast/Interfaces/Base.lproj/Main.storyboard\" > \"${SRCROOT}/Drivecast/Extensions/UIStoryboard.swift\"\n\nswiftgen colors \"${SRCROOT}/Drivecast/Ressources/Colors.txt\" > \"${SRCROOT}/Drivecast/Extensions/UIColor.swift\"\n\nswiftgen images \"${SRCROOT}/Drivecast/Ressources/Assets.xcassets\" > \"${SRCROOT}/Drivecast/Extensions/UIImage.swift\"\n\n#swiftgen-l10n \"${SRCROOT}/Drivecast/Ressources/Localizable.strings\" > \"${SRCROOT}/Drivecast/Extensions/L10n.swift\"";
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen storyboards \"${SRCROOT}/Drivecast/Interfaces/Base.lproj/Main.storyboard\" --output \"${SRCROOT}/Drivecast/Extensions/Storyboard.swift\"\n\n$PODS_ROOT/SwiftGen/bin/swiftgen colors \"${SRCROOT}/Drivecast/Ressources/Colors.txt\" --output \"${SRCROOT}/Drivecast/Extensions/Color.swift\"\n\n$PODS_ROOT/SwiftGen/bin/swiftgen images \"${SRCROOT}/Drivecast/Ressources/Assets.xcassets\" --output \"${SRCROOT}/Drivecast/Extensions/Image.swift\"\n\n#swiftgen-l10n \"${SRCROOT}/Drivecast/Ressources/Localizable.strings\" > \"${SRCROOT}/Drivecast/Extensions/L10n.swift\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -659,7 +659,7 @@
 				49B0FA331BD051AF0078490C /* SDCMeasurementColorLUT.swift in Sources */,
 				4975CECB1BE61A6800FF6943 /* UIApplication.swift in Sources */,
 				4920F8B51BD42C62001D3C16 /* UIViewController.swift in Sources */,
-				49FC9A941BCFB852006FA40E /* UIStoryboard.swift in Sources */,
+				49FC9A941BCFB852006FA40E /* Storyboard.swift in Sources */,
 				49DAC9D21BD5B58E00CD300F /* NSTimeInterval.swift in Sources */,
 				49D619ED1BE233B8005F8B11 /* SDCDashboardImportLogCell.swift in Sources */,
 				4995A05C1BD67B0D00854DC7 /* RealmPersistable.swift in Sources */,
@@ -677,7 +677,7 @@
 				496D6C9B1BF0AC7600E68C3E /* SDCDevice.swift in Sources */,
 				49DAC9D41BD5B75E00CD300F /* NSTimer.swift in Sources */,
 				49B0FA2D1BD00FDB0078490C /* SDCAboutTableViewController.swift in Sources */,
-				49FC9A931BCFB852006FA40E /* UIImage.swift in Sources */,
+				49FC9A931BCFB852006FA40E /* Image.swift in Sources */,
 				49FC9A951BCFB852006FA40E /* DCTLog.swift in Sources */,
 				49590B5A1BD4DD6A00A032A1 /* SDCMeasurementCircleView.swift in Sources */,
 				49B948051BE4CD380019507C /* SDCDashboardImportLogOpenMapCell.swift in Sources */,
@@ -696,7 +696,7 @@
 				4920F8B91BD46162001D3C16 /* SDCMeasurement.swift in Sources */,
 				49FC9A9F1BCFB852006FA40E /* JSONDecodable.swift in Sources */,
 				498274211BD16D3B003445B0 /* RACHelpers.swift in Sources */,
-				49FC9A921BCFB852006FA40E /* UIColor.swift in Sources */,
+				49FC9A921BCFB852006FA40E /* Color.swift in Sources */,
 				49FC9A9A1BCFB852006FA40E /* SDCBluetoothRemotePeripheral.swift in Sources */,
 				49FC9A901BCFB852006FA40E /* JSON.swift in Sources */,
 				4920F8BD1BD470A3001D3C16 /* UILabel.swift in Sources */,

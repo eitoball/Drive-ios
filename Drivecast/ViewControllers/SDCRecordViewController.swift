@@ -81,7 +81,7 @@ extension SDCRecordViewController {
         
         // Left button opens a console listing all occuring events
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(
-            image: UIImage.Asset.Console.image,
+            image: UIImage.init(asset: Asset.Console),
             style: UIBarButtonItemStyle.Plain,
             target: self, action: Selector("openConsole")
         )
