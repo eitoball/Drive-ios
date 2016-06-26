@@ -14,9 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9E6DD0344F3E732EA9767DE8F65CEFB"
+               BuildableName = "Pods.framework"
+               BlueprintName = "Pods"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "49FC9A1D1BCFB5D4006FA40E"
                BuildableName = "Drivecast.app"
                BlueprintName = "Drivecast"
+               ReferencedContainer = "container:Drivecast.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "49FC9A311BCFB5D4006FA40E"
+               BuildableName = "DrivecastTests.xctest"
+               BlueprintName = "DrivecastTests"
                ReferencedContainer = "container:Drivecast.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,16 +71,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49FC9A311BCFB5D4006FA40E"
-               BuildableName = "DrivecastTests.xctest"
-               BlueprintName = "DrivecastTests"
-               ReferencedContainer = "container:Drivecast.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
